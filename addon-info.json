@@ -1,0 +1,12 @@
+{
+    "name" : "vim-go-snippets",
+    "author" : "Willow Walthall <ghthor@gmail.com>",
+    "repository" : {"type": "git", "url": "git://github.com/ghthor/vim-go-snippets.git"},
+    "dependencies" : {
+        "snipmate": {
+            "type": "git",
+            "url": "https://github.com/garbas/vim-snipmate.git"
+        }
+    },
+    "description" : "Vim snippets extensions for golang"
+}
