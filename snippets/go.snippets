@@ -1,0 +1,14 @@
+snippet ir
+	if err != nil {
+		return ${1}err
+	}
+	${2}
+
+# convenience for writing gospec
+snippet spec
+	c.Specify("${1:spec}", func() {
+	})
+
+snippet desc
+	Describe${1:what}(c gospec.Context) {
+	}
